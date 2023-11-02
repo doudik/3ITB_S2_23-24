@@ -20,9 +20,32 @@ namespace Server
             //Vypnuté tlaèítko pøi zapnutí formu
             server = new SimpleTcpServer();
             button_stop.Enabled = false;
-            textBox_ip.Text = "10.20.10.163";
+            textBox_ip.Text = "10.30.1.53";
             textBox_port.Text = "5000";
             server.ClientConnected += Server_ClientConnected;
+            server.ClientDisconnected += Server_ClientDisconnected;
+            server.DataReceived += Server_DataReceived;
+        }
+
+
+        private void Server_DataReceived(object? sender, Message e)
+        {
+            string msg = e.MessageString.Remove(e.MessageString.Length - 1);
+            richTextBox_chat.Text += $"{e.TcpClient.Client.RemoteEndPoint.ToString()}: {msg}";
+            server.BroadcastLine($"{e.TcpClient.Client.RemoteEndPoint.ToString()}: {msg}");
+        }
+
+        private void Server_ClientDisconnected(object? sender, TcpClient e)
+        {
+            foreach (var item in listBox1.Items)
+            {
+                if (item == e.Client.RemoteEndPoint.ToString())
+                {
+                    listBox1.Items.Remove(item);
+                    listBox1.Refresh();
+                    break;
+                }
+            }
         }
 
         private void Server_ClientConnected(object? sender, System.Net.Sockets.TcpClient e)
@@ -42,7 +65,7 @@ namespace Server
                     server.Start(ip, getPort());
                     button_start.Enabled = false;
                     button_stop.Enabled = true;
-                    label_log.Text += $"\nServer {ip}:{getPort()} byl spuštìn";
+                    richTextBox_log.Text += $"\nServer {ip}:{getPort()} byl spuštìn";
                 }
                 catch (Exception)
                 {
@@ -70,7 +93,7 @@ namespace Server
             button_start.Enabled = true;
             button_stop.Enabled = false;
             server.Stop();
-            label_log.Text += "\n Zastavuji server..";
+            richTextBox_log.Text += "\n Zastavuji server..";
         }
     }
 }

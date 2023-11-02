@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nen+WFxSnd5VLp1/uFjUnYRBtScTKKW7Jmohiw7J2g4UKdSHJr/6/p8xaCm/upjhQhiVRDIp2JkgpKU8JZpjHw==",
+  "dgSpecHash": "H/Ux12wdJ22u32HxYUBtFLBism/lStnuNT/3ILf/j/XRk26ahnhPtKO27JLOQznT9iV6oaASSG7DtBiLGOzVrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\miram\\source\\repos\\Server\\Client\\Client.csproj",
+  "projectFilePath": "C:\\Users\\miram\\OneDrive\\Dokumenty\\GitHub\\3ITB_S2_23-24\\Server\\Client\\Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\miram\\.nuget\\packages\\simpletcp\\1.0.24\\simpletcp.1.0.24.nupkg.sha512"
   ],

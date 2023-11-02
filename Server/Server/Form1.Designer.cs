@@ -36,7 +36,8 @@
             label_connectedClients = new Label();
             label_port = new Label();
             textBox_port = new TextBox();
-            label_log = new Label();
+            richTextBox_log = new RichTextBox();
+            richTextBox_chat = new RichTextBox();
             SuspendLayout();
             // 
             // button_stop
@@ -110,22 +111,29 @@
             textBox_port.Size = new Size(194, 27);
             textBox_port.TabIndex = 6;
             // 
-            // label_log
+            // richTextBox_log
             // 
-            label_log.AutoSize = true;
-            label_log.BackColor = SystemColors.ButtonHighlight;
-            label_log.Location = new Point(269, 141);
-            label_log.MinimumSize = new Size(250, 300);
-            label_log.Name = "label_log";
-            label_log.Size = new Size(250, 300);
-            label_log.TabIndex = 8;
+            richTextBox_log.Location = new Point(276, 241);
+            richTextBox_log.Name = "richTextBox_log";
+            richTextBox_log.Size = new Size(436, 197);
+            richTextBox_log.TabIndex = 8;
+            richTextBox_log.Text = "";
+            // 
+            // richTextBox_chat
+            // 
+            richTextBox_chat.Location = new Point(276, 24);
+            richTextBox_chat.Name = "richTextBox_chat";
+            richTextBox_chat.Size = new Size(436, 211);
+            richTextBox_chat.TabIndex = 9;
+            richTextBox_chat.Text = "";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(735, 450);
-            Controls.Add(label_log);
+            Controls.Add(richTextBox_chat);
+            Controls.Add(richTextBox_log);
             Controls.Add(label_port);
             Controls.Add(textBox_port);
             Controls.Add(label_connectedClients);
@@ -150,6 +158,7 @@
         private Label label_connectedClients;
         private Label label_port;
         private TextBox textBox_port;
-        private Label label_log;
+        private RichTextBox richTextBox_log;
+        private RichTextBox richTextBox_chat;
     }
 }

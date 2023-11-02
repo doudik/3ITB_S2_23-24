@@ -34,11 +34,13 @@
             textBox_port = new TextBox();
             button_odpojit = new Button();
             button_connect = new Button();
+            richTextBox_msgs = new RichTextBox();
+            richTextBox_msg = new RichTextBox();
             SuspendLayout();
             // 
             // textBox_ip
             // 
-            textBox_ip.Location = new Point(153, 43);
+            textBox_ip.Location = new Point(114, 102);
             textBox_ip.Name = "textBox_ip";
             textBox_ip.Size = new Size(191, 27);
             textBox_ip.TabIndex = 0;
@@ -46,7 +48,7 @@
             // label_ip
             // 
             label_ip.AutoSize = true;
-            label_ip.Location = new Point(59, 46);
+            label_ip.Location = new Point(20, 105);
             label_ip.Name = "label_ip";
             label_ip.Size = new Size(24, 20);
             label_ip.TabIndex = 1;
@@ -55,7 +57,7 @@
             // label_port
             // 
             label_port.AutoSize = true;
-            label_port.Location = new Point(59, 89);
+            label_port.Location = new Point(20, 148);
             label_port.Name = "label_port";
             label_port.Size = new Size(38, 20);
             label_port.TabIndex = 3;
@@ -63,14 +65,14 @@
             // 
             // textBox_port
             // 
-            textBox_port.Location = new Point(153, 86);
+            textBox_port.Location = new Point(114, 145);
             textBox_port.Name = "textBox_port";
             textBox_port.Size = new Size(191, 27);
             textBox_port.TabIndex = 2;
             // 
             // button_odpojit
             // 
-            button_odpojit.Location = new Point(59, 145);
+            button_odpojit.Location = new Point(20, 204);
             button_odpojit.Name = "button_odpojit";
             button_odpojit.Size = new Size(111, 29);
             button_odpojit.TabIndex = 4;
@@ -80,7 +82,7 @@
             // 
             // button_connect
             // 
-            button_connect.Location = new Point(228, 145);
+            button_connect.Location = new Point(189, 204);
             button_connect.Name = "button_connect";
             button_connect.Size = new Size(116, 29);
             button_connect.TabIndex = 5;
@@ -88,11 +90,30 @@
             button_connect.UseVisualStyleBackColor = true;
             button_connect.Click += button_connect_Click;
             // 
+            // richTextBox_msgs
+            // 
+            richTextBox_msgs.Location = new Point(329, 12);
+            richTextBox_msgs.Name = "richTextBox_msgs";
+            richTextBox_msgs.Size = new Size(322, 263);
+            richTextBox_msgs.TabIndex = 6;
+            richTextBox_msgs.Text = "";
+            // 
+            // richTextBox_msg
+            // 
+            richTextBox_msg.Location = new Point(329, 292);
+            richTextBox_msg.Name = "richTextBox_msg";
+            richTextBox_msg.Size = new Size(322, 50);
+            richTextBox_msg.TabIndex = 7;
+            richTextBox_msg.Text = "";
+            richTextBox_msg.KeyPress += richTextBox_msg_KeyPress;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(411, 223);
+            ClientSize = new Size(816, 354);
+            Controls.Add(richTextBox_msg);
+            Controls.Add(richTextBox_msgs);
             Controls.Add(button_connect);
             Controls.Add(button_odpojit);
             Controls.Add(label_port);
@@ -113,5 +134,7 @@
         private TextBox textBox_port;
         private Button button_odpojit;
         private Button button_connect;
+        private RichTextBox richTextBox_msgs;
+        private RichTextBox richTextBox_msg;
     }
 }
