@@ -1,0 +1,14 @@
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\bin\Debug\net7.0\Kavarna.exe
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\bin\Debug\net7.0\Kavarna.deps.json
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\bin\Debug\net7.0\Kavarna.runtimeconfig.json
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\bin\Debug\net7.0\Kavarna.dll
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\bin\Debug\net7.0\Kavarna.pdb
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\obj\Debug\net7.0\Kavarna.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\obj\Debug\net7.0\Kavarna.AssemblyInfoInputs.cache
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\obj\Debug\net7.0\Kavarna.AssemblyInfo.cs
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\obj\Debug\net7.0\Kavarna.csproj.CoreCompileInputs.cache
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\obj\Debug\net7.0\Kavarna.dll
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\obj\Debug\net7.0\refint\Kavarna.dll
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\obj\Debug\net7.0\Kavarna.pdb
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\obj\Debug\net7.0\Kavarna.genruntimeconfig.cache
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\Kavarna\Kavarna\obj\Debug\net7.0\ref\Kavarna.dll
