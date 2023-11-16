@@ -10,18 +10,15 @@ namespace Kavarna
     internal class Kavarna : IBeverage
     {
         List<IBeverage> beverages = new List<IBeverage>();
-
         Dictionary<Kava, float> dict_allCoffees = new Dictionary<Kava, float>();
         string nazevKavarny;
+        public extra additional { get; set; }
         
         public Kavarna(string nazev)
         {
             nazevKavarny = nazev;
             AllCoffees();
         }
-
-        public extra additional { get; set; }
-
         void AllCoffees()
         {
             dict_allCoffees.Add(new Kava("Americano L", typ.zrnková, zemePuvodu.Guatemala, false), 139.0f);

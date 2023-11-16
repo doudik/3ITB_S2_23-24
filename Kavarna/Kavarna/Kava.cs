@@ -14,6 +14,7 @@ namespace Kavarna
         zemePuvodu kava_zemePuvodu;
         bool mleko;
         float cena;
+        public extra additional { get; set; }
         
         public Kava(string n, typ t, zemePuvodu z, bool m) {
             typ_kavy = t;
@@ -21,9 +22,6 @@ namespace Kavarna
             mleko = m;
             nazevKavy = n;
         }
-
-        public extra additional { get; set; }
-
         public void getAllInformation()
         {
             Console.WriteLine(additional);
