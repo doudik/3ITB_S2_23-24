@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Kavarna
 {
-    internal class Kava : IBeverage
+    internal class Kava
     {
         public string nazevKavy { get; private set; }
         typ typ_kavy;
         zemePuvodu kava_zemePuvodu;
         bool mleko;
         float cena;
-        public extra additional { get; set; }
+        public extra[] additional { get; private set; }
         
         public Kava(string n, typ t, zemePuvodu z, bool m) {
             typ_kavy = t;
@@ -22,10 +22,15 @@ namespace Kavarna
             mleko = m;
             nazevKavy = n;
         }
-        public void getAllInformation()
+        public Kava(string n, typ t, zemePuvodu z, bool m, extra[] e)
         {
-            Console.WriteLine(additional);
+            typ_kavy = t;
+            kava_zemePuvodu = z;
+            mleko = m;
+            nazevKavy = n;
+            additional = e;
         }
+       
     }
 
     enum typ{
