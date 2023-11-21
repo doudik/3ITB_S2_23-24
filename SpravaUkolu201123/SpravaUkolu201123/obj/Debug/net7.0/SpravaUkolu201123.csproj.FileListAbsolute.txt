@@ -1,0 +1,14 @@
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\obj\Debug\net7.0\SpravaUkolu201123.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\obj\Debug\net7.0\SpravaUkolu201123.AssemblyInfoInputs.cache
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\obj\Debug\net7.0\SpravaUkolu201123.AssemblyInfo.cs
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\obj\Debug\net7.0\SpravaUkolu201123.csproj.CoreCompileInputs.cache
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\bin\Debug\net7.0\SpravaUkolu201123.exe
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\bin\Debug\net7.0\SpravaUkolu201123.deps.json
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\bin\Debug\net7.0\SpravaUkolu201123.runtimeconfig.json
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\bin\Debug\net7.0\SpravaUkolu201123.dll
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\bin\Debug\net7.0\SpravaUkolu201123.pdb
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\obj\Debug\net7.0\SpravaUkolu201123.dll
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\obj\Debug\net7.0\refint\SpravaUkolu201123.dll
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\obj\Debug\net7.0\SpravaUkolu201123.pdb
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\obj\Debug\net7.0\SpravaUkolu201123.genruntimeconfig.cache
+C:\Users\miram\OneDrive\Dokumenty\GitHub\3ITB_S2_23-24\SpravaUkolu201123\SpravaUkolu201123\obj\Debug\net7.0\ref\SpravaUkolu201123.dll
